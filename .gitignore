@@ -1,0 +1,23 @@
+# --- Secrets (CRITICAL) ---
+.env
+
+# --- User Specific Exclusions ---
+data/
+structured_tables/
+classifier.py
+tester.py
+download_reranker.py
+# I noticed a file named just 'requirements' (no extension) in your list.
+# If that is a mistake copy of requirements.txt, ignore it too:
+requirements
+
+# --- Python & System Junk (Standard) ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.DS_Store
+
+# --- Editor Settings ---
+.vscode/ 
